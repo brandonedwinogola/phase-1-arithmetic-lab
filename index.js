@@ -1,33 +1,10 @@
 // Write your code here
-function mult(num1, num2) {
-    return num1 * num2
-}
-const multNum = mult(31, 2)
-console.log(multNum); // Expected output:62
 
-function getRndInteger(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-    let rand = Math.random() * maxLimit;
-    console.log(rand); // say 99.81321410836433
-
-    rand = Math.floor(rand); // 99 
-
-    return rand;
-
-}
-generate randNumber // 48
-
-function mod(num3 % num4); {
-
-    const % (mod); % (16, 4);
-
-    console.log(mod); // expected output 4
-
-}
-
-
-Math.max([num5, num6, ...getRndInteger.]);
-
-console.log(Math.max(10, 20));
-
-// Expected output 20
+ const num1 = 2;
+const num2 = 31;
+const multiply = num1 * num2;
+const random = Math.floor( Math.random() * 1000 ) + 1;
+const num3 = 16;
+const num4 = 6;
+const mod = num3 % num4;
+const max = Math.max( 5, 10, 15, 20 );
